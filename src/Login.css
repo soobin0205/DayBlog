@@ -1,0 +1,86 @@
+/* Reset and global styles, scoped to .login-page */
+.login-page * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-page {
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form container */
+.login-page .form-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+/* Title */
+.login-page h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Form styles */
+.login-page .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.login-page .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.login-page .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Submit button */
+.login-page .submit-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.login-page .submit-btn:hover {
+    background-color: #555;
+}
+
+/* Login prompt */
+.login-page p {
+    margin-top: 15px;
+}
+
+.login-page p a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-page p a:hover {
+    text-decoration: underline;
+}

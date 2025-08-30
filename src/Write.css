@@ -1,0 +1,114 @@
+.write-container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.write-header h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.title-input {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+}
+
+.content-editor {
+  width: 100%;
+  min-height: 300px;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  text-align: center;
+}
+
+.content-editor:focus {
+  border-color: #00c73c;
+  box-shadow: 0 0 5px rgba(0, 199, 60, 0.2);
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.toolbar-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.toolbar-icons button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.toolbar-icons button:hover {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+
+.save-btn {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.publish-btn {
+  background-color: #00c73c;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.publish-btn:hover {
+  background-color: #009e2b;
+}
+
+/* 이미지 스타일 */
+.uploaded-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 10px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer; /* 이미지 클릭 가능 */
+}
+
+.resize-image {
+  display: block;
+  width: 50%; /* 기본 너비 */
+  height: auto;
+  margin: 10px auto;
+}
+
+
+
+
+

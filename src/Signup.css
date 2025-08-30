@@ -1,0 +1,114 @@
+/* Reset and global styles, scoped to .signup-page */
+.signup-page * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signup-page {
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Signup container */
+.signup-page .signup-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+/* Title */
+.signup-page .signup-title {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Form styles */
+.signup-page .signup-form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.signup-page .signup-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.signup-page .signup-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Password strength and match */
+.signup-page .signup-password-strength {
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.signup-page .signup-password-strength.signup-strong {
+    color: green;
+}
+
+.signup-page .signup-password-strength.signup-medium {
+    color: orange;
+}
+
+.signup-page .signup-password-strength.signup-weak {
+    color: red;
+}
+
+.signup-page .signup-password-match {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    color: red;
+}
+
+.signup-page .signup-valid {
+    color: green;
+}
+
+/* Submit button */
+.signup-page .signup-submit-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.signup-page .signup-submit-btn:hover {
+    background-color: #555;
+}
+
+/* Login prompt */
+.signup-page .signup-login-prompt {
+    margin-top: 15px;
+}
+
+.signup-page .signup-login-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.signup-page .signup-login-link:hover {
+    text-decoration: underline;
+}

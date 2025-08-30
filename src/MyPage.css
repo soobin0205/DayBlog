@@ -1,0 +1,119 @@
+/* 마이페이지 컨테이너 스타일 */
+.mypage-container {
+    max-width: 600px;
+    margin: 60px auto;
+    height: 700px;
+    padding: 30px;
+    background-color: #f0f0f0; /* 연한 그레이 */
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05); /* 그레이톤의 부드러운 그림자 */
+    text-align: center;
+    font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+.mypage-container:hover {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1); /* 부드러운 그림자 */
+}
+
+/* 제목 스타일 */
+.mypage-container h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #333333; /* 다크 그레이 */
+    margin-bottom: 34px;
+}
+
+/* 프로필 이미지 섹션 */
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.profile-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 4px solid #d3d3d3; /* 라이트 그레이 */
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-image:hover {
+    border-color: #333333; /* 다크 그레이 */
+}
+
+/* 정보 섹션 */
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.info-section label {
+    margin-bottom: 12px;
+    font-size: 1.3rem;
+    color: #555555; /* 중간 그레이 */
+    font-weight: 500;
+}
+
+.info-section input[type="text"] {
+    width: 40%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #cccccc; /* 라이트 그레이 */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    background-color: #ffffff; /* 화이트 */
+    color: #333333; /* 다크 그레이 */
+    text-align: center;
+}
+
+.info-section input[type="text"]:focus {
+    border-color: #333333; /* 다크 그레이 */
+    box-shadow: inset 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* 수정 버튼 */
+.info-section button {
+    padding: 12px 30px;
+    background-color: #333333; /* 다크 그레이 */
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.info-section button:hover {
+    background-color: #000000; /* 블랙 */
+    transform: translateY(-3px);
+}
+
+/* 회원탈퇴 버튼 */
+.delete-account-btn {
+    padding: 12px 30px;
+    background-color: #333333; /* 다크 그레이 */
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.delete-account-btn:hover {
+    background-color: #000000; /* 블랙 */
+    transform: translateY(-3px);
+}
