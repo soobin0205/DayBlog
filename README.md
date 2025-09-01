@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# 하루 한 컷
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> 📷 하루 일상을 기록하고, 다른 사람들과 공유할 수 있는 **블로그 & 일정 관리 웹**
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## 📌 프로젝트 소개
+**하루 한 컷**은 사용자가 하루를 기록하고 공유할 수 있는 웹   
+글과 이미지를 작성할 수 있고, 개인 일정도 캘린더에서 관리 가능  
+로그인 후 자신의 글을 작성/수정/삭제할 수 있으며, 다른 사람의 글도 열람할 수 있음 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 🚀 주요 기능
+### 👤 회원
+- 회원가입 / 로그인 / 로그아웃
+- 회원탈퇴 (작성한 게시물까지 함께 삭제)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 📝 블로그
+- 글 작성 (제목, 본문, 이미지 첨부)
+- 전체 게시물 보기 (자신 + 다른 사용자 글)
+- 게시물 상세보기
 
-### `npm run build`
+### 📅 일정 관리
+- React Calendar 기반 일정 관리
+- 날짜별 메모/스케줄 추가
+- 스케줄 삭제 가능
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##⚙️ 기술 스택
+### Frontend
+- **React**
+- **React Router DOM**
+- **CSS**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Backend
+- **Node.js**
+- **MySQL**
+- **JWT** – 인증/인가
+- **bcryptjs** – 비밀번호 암호화
+- **multer** – 이미지 업로드
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 향후 개선 아이디어
+-댓글 기능 추가
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-태그 기반 게시물 필터링
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
